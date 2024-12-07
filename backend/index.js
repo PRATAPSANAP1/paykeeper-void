@@ -15,7 +15,7 @@ const app = express();
 
 // CORS configuration
 const corsOptions = {
-  origin: ['https://your-frontend-url.onrender.com'], // Update with the actual URL of your deployed frontend
+  origin: ['https://paykeeper-void.onrender.com'], // Update with the actual URL of your deployed frontend
   methods: 'GET, POST, PUT, DELETE',
   allowedHeaders: 'Content-Type, Authorization',
 };

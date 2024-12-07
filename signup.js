@@ -11,7 +11,7 @@ document.getElementById('signupForm').addEventListener('submit', function(event)
     };
 
     // Send data only when the form is submitted
-    fetch('https://void-paykeeper-2.onrender.com/api/users/signup', { // Update the URL
+    fetch('https://paykeeper-void.onrender.com/api/users/signup', { // Update the URL
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

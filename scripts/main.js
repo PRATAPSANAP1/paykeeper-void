@@ -25,7 +25,7 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
     };
   
     // Send a POST request to submit the contact form data to the backend
-    fetch('http://localhost:5000/submit-contact', {
+    fetch('https://paykeeper-void.onrender.com//submit-contact', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
